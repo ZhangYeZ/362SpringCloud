@@ -1,0 +1,12 @@
+com\bdqn\dao\ItripHotelMapper.class
+com\bdqn\entity\Hits.class
+com\bdqn\entity\JsonRootBean.class
+com\bdqn\dao\ItripDao.class
+com\bdqn\entity\ItripHotel.class
+com\bdqn\entity\_shards.class
+com\bdqn\entity\ListObject.class
+com\bdqn\entity\_source.class
+com\bdqn\ProviderStart.class
+com\bdqn\biz\UserController.class
+com\bdqn\util\TestES.class
+com\bdqn\util\Client.class

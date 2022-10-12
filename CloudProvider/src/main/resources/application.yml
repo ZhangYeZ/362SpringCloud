@@ -1,0 +1,23 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://jorian:123456@localhost:8686/eureka
+mybatis:
+    type-aliases-package: com.bdqn
+server:
+    port: 7901
+spring:
+    application:
+        name: provider-user
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: 1234
+        url: jdbc:mysql://localhost:3306/itripbeans?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+        username: root
+    http:
+        encoding:
+            charset: utf-8
+            enabled: true
+            force: true
+    main:
+        allow-bean-definition-overriding: true

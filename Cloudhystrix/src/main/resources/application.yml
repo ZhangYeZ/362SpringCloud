@@ -1,0 +1,12 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://jorian:123456@localhost:8686/eureka
+logging:
+    level:
+        root: INFO
+server:
+    port: 8003
+spring:
+    application:
+        name: j-cloud-consumer1

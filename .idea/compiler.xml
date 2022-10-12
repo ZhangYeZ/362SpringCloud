@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CloudProvider" />
+        <module name="Eureka" />
+        <module name="CloudProvider1" />
+        <module name="CloudConsummer" />
+        <module name="CloudZuul" />
+        <module name="Cloudhystrix" />
+        <module name="CloudClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CloudClient" target="1.8" />
+      <module name="CloudFeign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CloudClient" options="-parameters" />
+      <module name="CloudConsummer" options="-parameters" />
+      <module name="CloudProvider" options="-parameters" />
+      <module name="CloudProvider1" options="-parameters" />
+      <module name="Cloudhystrix" options="" />
+      <module name="Eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
